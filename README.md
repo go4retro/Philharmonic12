@@ -1,6 +1,9 @@
 # Philharmonic 12 - A 12 Voice Hardware Music Synthesizer for the TANDY Color Computer and Dragon
 This cartridge reproduces the functionality of the Speech Systems "Symphony 12" cartridge.
-## Changes
+
+NOTE:  As of 2018-12-24, this design has not been built and tested.  Caveat Emptor!
+
+## Reproduction Changes
 Although the schematic on page 27 of the Owner's Manual was followed to implement this reproduction, the schematic was incomplete, and so a few changes were made to minimize parts count and fill in the gaps.
 
 The decoding of the MC6821 /CS2 line was defined as "pin 15 74ls138 $ff60", which implied that $ff60 would represent a low level on pin 15 of the IC (a 3-8 decoder), which is value "0".  That meant input lines A,B, and C must be low levels.  Since address lines 0 and 1 select the specific MC6821 register, it is assumed address lines 2,3, and 4 are sent to inputs A, B, and C.  Furthermore, since the unit decodes to $ff60, which is above the /SCS space, a full address decode must be done.  A 74LS30 8 input NAND gate was used to decode an $ffxx access, and that output was used to gate the '138.  Address lines 7, 6, and 5 were still not decoded, but must be set to 011.  Thus, A7 was sent to a negative select line on the '138, while A5 and A6 were sent to active high select lines on the MC6821 (which are tied to +5V on the original schematic).  Functionality, this should not affect operation.
