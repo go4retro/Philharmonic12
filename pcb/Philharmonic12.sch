@@ -15062,37 +15062,37 @@ Source: AVX .. aphvc.pdf</description>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="IC8" library="linear" deviceset="LM386?-*" device="N" technology="1"/>
 <part name="IC9" library="linear" deviceset="LM386?-*" device="N" technology="1"/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
-<part name="C2" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
+<part name="C2" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="VCC" device=""/>
-<part name="R1" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R2" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R4" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R6" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R9" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R10" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="R12" library="rcl" deviceset="R-US_" device="0204/7"/>
-<part name="C3" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
-<part name="C5" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C6" library="rcl" deviceset="C-US" device="025-025X050"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="R4" library="rcl" deviceset="R-US_" device="0204/7" value="470"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="0204/7" value="4K7"/>
+<part name="R6" library="rcl" deviceset="R-US_" device="0204/7" value="4K7"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="0204/7" value="1K"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="0204/7" value="1K"/>
+<part name="R9" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
+<part name="R10" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
+<part name="R11" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
+<part name="R12" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
+<part name="C3" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
+<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
+<part name="C5" library="rcl" deviceset="C-US" device="025-025X050" value="220p"/>
+<part name="C6" library="rcl" deviceset="C-US" device="025-025X050" value="220p"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="CPOL-US" device="E2.5-6"/>
+<part name="C7" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
 <part name="SUPPLY18" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
@@ -15100,15 +15100,15 @@ Source: AVX .. aphvc.pdf</description>
 <part name="X2" library="con-cui-jb" deviceset="SJ1-3525N" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="MONO" library="jumper-jlb" deviceset="JP1Q" device=""/>
-<part name="C8" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C9" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C10" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C11" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C12" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C13" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C14" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C15" library="rcl" deviceset="C-US" device="025-025X050"/>
-<part name="C16" library="rcl" deviceset="C-US" device="025-025X050"/>
+<part name="C8" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C9" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C10" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C11" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C12" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C13" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C14" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C15" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
+<part name="C16" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
 <part name="SUPPLY23" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="VCC" device=""/>
@@ -15148,7 +15148,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="QG1" library="crystal" deviceset="QG5460" device="" value="3.579545MHz"/>
 <part name="SUPPLY58" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
-<part name="C17" library="rcl" deviceset="C-US" device="025-025X050"/>
+<part name="C17" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
 <part name="SUPPLY60" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY62" library="supply2" deviceset="GND" device=""/>
@@ -15158,7 +15158,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="IC10" library="74xx-us-jlb" deviceset="74*74" device="N" technology="LS"/>
 <part name="SUPPLY64" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY65" library="supply2" deviceset="VCC" device=""/>
-<part name="C18" library="rcl" deviceset="C-US" device="025-025X050"/>
+<part name="C18" library="rcl" deviceset="C-US" device="025-025X050" value=".1u"/>
 <part name="SUPPLY66" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY67" library="supply2" deviceset="GND" device=""/>
 </parts>
@@ -16763,6 +16763,37 @@ Source: AVX .. aphvc.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,25.4,256.54,IC1,CB1,,,,"/>
+<approved hash="202,1,25.4,259.08,IC1,CA1,,,,"/>
+<approved hash="104,1,25.4,10.16,IC1P,VSS,GND,,,"/>
+<approved hash="202,1,109.22,205.74,IC2,TEST1,,,,"/>
+<approved hash="202,1,109.22,203.2,IC2,TEST2,,,,"/>
+<approved hash="202,1,182.88,205.74,IC3,TEST1,,,,"/>
+<approved hash="202,1,182.88,203.2,IC3,TEST2,,,,"/>
+<approved hash="202,1,109.22,137.16,IC4,TEST1,,,,"/>
+<approved hash="202,1,109.22,134.62,IC4,TEST2,,,,"/>
+<approved hash="202,1,182.88,134.62,IC5,TEST1,,,,"/>
+<approved hash="202,1,182.88,132.08,IC5,TEST2,,,,"/>
+<approved hash="204,1,17.78,30.48,X1PWR,-12V,,,,"/>
+<approved hash="204,1,7.62,30.48,X1PWR,+12V,,,,"/>
+<approved hash="104,1,309.88,259.08,IC8,VS,VCC,,,"/>
+<approved hash="104,1,309.88,208.28,IC9,VS,VCC,,,"/>
+<approved hash="206,1,139.7,256.54,AUDIO_A,,,,,"/>
+<approved hash="206,1,139.7,254,AUDIO_A,,,,,"/>
+<approved hash="206,1,139.7,251.46,AUDIO_A,,,,,"/>
+<approved hash="206,1,213.36,256.54,AUDIO_A,,,,,"/>
+<approved hash="206,1,213.36,251.46,AUDIO_A,,,,,"/>
+<approved hash="206,1,213.36,254,AUDIO_A,,,,,"/>
+<approved hash="206,1,139.7,187.96,AUDIO_B,,,,,"/>
+<approved hash="206,1,139.7,185.42,AUDIO_B,,,,,"/>
+<approved hash="206,1,139.7,182.88,AUDIO_B,,,,,"/>
+<approved hash="206,1,213.36,185.42,AUDIO_B,,,,,"/>
+<approved hash="206,1,213.36,182.88,AUDIO_B,,,,,"/>
+<approved hash="206,1,213.36,180.34,AUDIO_B,,,,,"/>
+<approved hash="113,1,215.796,139.596,FRAME2,,,,,"/>
+<approved hash="113,1,416.56,47.4768,U$1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
