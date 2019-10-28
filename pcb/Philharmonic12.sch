@@ -15046,7 +15046,7 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="micro-motorola" deviceset="6821" device="R" value="MC6821"/>
+<part name="IC1" library="micro-motorola" deviceset="6821" device="R" value="MC68B21"/>
 <part name="IC2" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
 <part name="IC3" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
 <part name="IC4" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
@@ -15057,7 +15057,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY2" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY4" library="supply2" deviceset="VCC" device=""/>
-<part name="IC7" library="74xx-us-jlb" deviceset="74*30" device="N" technology="ALS"/>
+<part name="IC7" library="74xx-us-jlb" deviceset="74*30" device="N" technology="ALS" value="74LS30N"/>
 <part name="SUPPLY5" library="supply2" deviceset="VCC" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="IC8" library="linear" deviceset="LM386?-*" device="N" technology="1"/>
@@ -16713,7 +16713,7 @@ Source: AVX .. aphvc.pdf</description>
 <label x="373.38" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="CLK" class="0">
 <segment>
 <pinref part="QG1" gate="1" pin="OUT"/>
 <pinref part="IC10" gate="A" pin="CLK"/>
@@ -16733,7 +16733,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="294.64" y1="157.48" x2="299.72" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="CLK/2" class="0">
 <segment>
 <pinref part="IC10" gate="A" pin="Q"/>
 <wire x1="325.12" y1="160.02" x2="327.66" y2="160.02" width="0.1524" layer="91"/>
@@ -16753,7 +16753,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="330.2" y1="157.48" x2="335.28" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="CLK/4" class="0">
 <segment>
 <pinref part="IC10" gate="B" pin="Q"/>
 <pinref part="CLK_SEL" gate="1" pin="1"/>
