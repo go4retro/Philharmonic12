@@ -919,20 +919,20 @@ Motorola DRAMs&lt;p&gt;
 <text x="23.1775" y="-6.6675" size="1.27" layer="27">39</text>
 </package>
 <package name="MA20-2">
-<wire x1="-25.0825" y1="-5.08" x2="25.0825" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="25.0825" y1="-5.08" x2="26.3525" y2="-3.81" width="0.127" layer="21" curve="90"/>
-<wire x1="26.3525" y1="-3.81" x2="26.3525" y2="4.318" width="0.127" layer="21"/>
-<wire x1="-25.0825" y1="-5.08" x2="-26.3525" y2="-3.81" width="0.127" layer="21" curve="-90"/>
-<wire x1="-26.3525" y1="-3.81" x2="-26.3525" y2="4.318" width="0.127" layer="21"/>
-<wire x1="-26.6065" y1="4.318" x2="-26.3525" y2="4.318" width="0.127" layer="21"/>
-<wire x1="26.3525" y1="4.318" x2="26.6065" y2="4.318" width="0.127" layer="21"/>
-<wire x1="-26.3525" y1="4.318" x2="-26.3525" y2="-3.81" width="0.127" layer="22"/>
-<wire x1="-26.3525" y1="-3.81" x2="-25.0825" y2="-5.08" width="0.127" layer="22" curve="90"/>
-<wire x1="-25.0825" y1="-5.08" x2="25.0825" y2="-5.08" width="0.127" layer="22"/>
-<wire x1="25.0825" y1="-5.08" x2="26.3525" y2="-3.81" width="0.127" layer="22" curve="90"/>
-<wire x1="26.3525" y1="-3.81" x2="26.3525" y2="4.318" width="0.127" layer="22"/>
-<wire x1="26.3525" y1="4.318" x2="26.6065" y2="4.318" width="0.127" layer="22"/>
-<wire x1="-26.6065" y1="4.318" x2="-26.3525" y2="4.318" width="0.127" layer="22"/>
+<wire x1="-25.4" y1="-5.08" x2="25.0825" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="25.0825" y1="-5.08" x2="26.67" y2="-3.81" width="0.127" layer="21" curve="90"/>
+<wire x1="26.67" y1="-3.81" x2="26.67" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-5.08" x2="-26.67" y2="-3.81" width="0.127" layer="21" curve="-90"/>
+<wire x1="-26.67" y1="-3.81" x2="-26.67" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-26.924" y1="4.318" x2="-26.67" y2="4.318" width="0.127" layer="21"/>
+<wire x1="26.67" y1="4.318" x2="26.924" y2="4.318" width="0.127" layer="21"/>
+<wire x1="-26.67" y1="4.318" x2="-26.67" y2="-3.81" width="0.127" layer="22"/>
+<wire x1="-26.67" y1="-3.81" x2="-25.4" y2="-5.08" width="0.127" layer="22" curve="90"/>
+<wire x1="-25.4" y1="-5.08" x2="25.0825" y2="-5.08" width="0.127" layer="22"/>
+<wire x1="25.0825" y1="-5.08" x2="26.67" y2="-3.81" width="0.127" layer="22" curve="90"/>
+<wire x1="26.67" y1="-3.81" x2="26.67" y2="4.318" width="0.127" layer="22"/>
+<wire x1="26.67" y1="4.318" x2="26.924" y2="4.318" width="0.127" layer="22"/>
+<wire x1="-26.924" y1="4.318" x2="-26.67" y2="4.318" width="0.127" layer="22"/>
 <smd name="21" x="1.27" y="-0.3048" dx="1.27" dy="8.89" layer="1" roundness="30"/>
 <smd name="19" x="-1.27" y="-0.3048" dx="1.27" dy="8.89" layer="1" roundness="30"/>
 <smd name="17" x="-3.81" y="-0.3048" dx="1.27" dy="8.89" layer="1" roundness="30"/>
@@ -977,24 +977,23 @@ Motorola DRAMs&lt;p&gt;
 <text x="-24.765" y="6.096" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-24.765" y="4.445" size="1.27" layer="21">1</text>
 <polygon width="0.127" layer="42">
-<vertex x="-26.035" y="4.445"/>
-<vertex x="26.3525" y="4.445"/>
-<vertex x="26.3525" y="-3.81" curve="-90"/>
+<vertex x="-26.67" y="4.445"/>
+<vertex x="26.67" y="4.445"/>
+<vertex x="26.67" y="-3.81" curve="-90"/>
 <vertex x="25.0825" y="-5.08"/>
-<vertex x="-25.0825" y="-5.08" curve="-90"/>
-<vertex x="-26.3525" y="-3.81"/>
-<vertex x="-26.3525" y="4.445"/>
+<vertex x="-25.4" y="-5.08" curve="-90"/>
+<vertex x="-26.67" y="-3.81"/>
 </polygon>
 <polygon width="0.127" layer="41">
-<vertex x="-26.3525" y="4.445"/>
-<vertex x="26.3525" y="4.445"/>
-<vertex x="26.3525" y="-3.81" curve="-90"/>
+<vertex x="-26.67" y="4.445"/>
+<vertex x="26.67" y="4.445"/>
+<vertex x="26.67" y="-3.81" curve="-90"/>
 <vertex x="25.0825" y="-5.08"/>
-<vertex x="-25.0825" y="-5.08" curve="-90"/>
-<vertex x="-26.3525" y="-3.81"/>
+<vertex x="-25.4" y="-5.08" curve="-90"/>
+<vertex x="-26.67" y="-3.81"/>
 </polygon>
 <text x="23.495" y="4.445" size="1.27" layer="21">39</text>
-<text x="25.4" y="4.445" size="1.27" layer="22" rot="MR0">40</text>
+<text x="25.7175" y="4.445" size="1.27" layer="22" rot="MR0">40</text>
 <text x="-23.8125" y="4.445" size="1.27" layer="22" rot="MR0">2</text>
 </package>
 <package name="PROGRAM_PAK">
@@ -1039,16 +1038,16 @@ Motorola DRAMs&lt;p&gt;
 <hole x="0" y="0" drill="7.62"/>
 <hole x="-22.86" y="-24.13" drill="3.556"/>
 <hole x="22.86" y="-24.13" drill="3.556"/>
-<wire x1="-26.3525" y1="-33.02" x2="-26.3525" y2="-41.275" width="0" layer="111" style="shortdash"/>
-<wire x1="-26.3525" y1="-41.275" x2="-25.0825" y2="-42.545" width="0" layer="111" style="shortdash" curve="90"/>
-<wire x1="-25.0825" y1="-42.545" x2="25.0825" y2="-42.545" width="0" layer="111" style="shortdash"/>
-<wire x1="25.0825" y1="-42.545" x2="26.3525" y2="-41.275" width="0" layer="111" style="shortdash" curve="90"/>
-<wire x1="26.3525" y1="-41.275" x2="26.3525" y2="-33.02" width="0" layer="111" style="shortdash"/>
-<wire x1="-26.3525" y1="-33.02" x2="-26.3525" y2="-41.275" width="0" layer="110"/>
-<wire x1="-26.3525" y1="-41.275" x2="-25.0825" y2="-42.545" width="0" layer="110" curve="90"/>
-<wire x1="-25.0825" y1="-42.545" x2="25.0825" y2="-42.545" width="0" layer="110"/>
-<wire x1="25.0825" y1="-42.545" x2="26.3525" y2="-41.275" width="0" layer="110" curve="90"/>
-<wire x1="26.3525" y1="-41.275" x2="26.3525" y2="-33.02" width="0" layer="110"/>
+<wire x1="-26.67" y1="-33.02" x2="-26.67" y2="-41.275" width="0" layer="111" style="shortdash"/>
+<wire x1="-26.67" y1="-41.275" x2="-25.4" y2="-42.545" width="0" layer="111" style="shortdash" curve="90"/>
+<wire x1="-25.4" y1="-42.545" x2="25.4" y2="-42.545" width="0" layer="111" style="shortdash"/>
+<wire x1="25.4" y1="-42.545" x2="26.67" y2="-41.275" width="0" layer="111" style="shortdash" curve="90"/>
+<wire x1="26.67" y1="-41.275" x2="26.67" y2="-33.02" width="0" layer="111" style="shortdash"/>
+<wire x1="-26.67" y1="-33.02" x2="-26.67" y2="-41.275" width="0" layer="110"/>
+<wire x1="-26.67" y1="-41.275" x2="-25.4" y2="-42.545" width="0" layer="110" curve="90"/>
+<wire x1="-25.4" y1="-42.545" x2="25.4" y2="-42.545" width="0" layer="110"/>
+<wire x1="25.4" y1="-42.545" x2="26.67" y2="-41.275" width="0" layer="110" curve="90"/>
+<wire x1="26.67" y1="-41.275" x2="26.67" y2="-33.02" width="0" layer="110"/>
 <circle x="22.86" y="-24.13" radius="2.9972" width="0.0254" layer="48"/>
 <circle x="-22.86" y="-24.13" radius="2.794" width="0.0254" layer="48"/>
 <circle x="-22.86" y="-24.13" radius="2.9972" width="0.0254" layer="48"/>
