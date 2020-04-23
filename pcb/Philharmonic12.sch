@@ -15046,10 +15046,10 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="IC1" library="micro-motorola" deviceset="6821" device="R" value="MC68B21"/>
-<part name="IC2" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
-<part name="IC3" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
-<part name="IC4" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
-<part name="IC5" library="general-instrument" deviceset="AY-3-8910" device="-RP"/>
+<part name="IC2" library="general-instrument" deviceset="AY-3-8910" device="-RP" value="AY-3-8910"/>
+<part name="IC3" library="general-instrument" deviceset="AY-3-8910" device="-RP" value="AY-3-8910"/>
+<part name="IC4" library="general-instrument" deviceset="AY-3-8910" device="-RP" value="AY-3-8910"/>
+<part name="IC5" library="general-instrument" deviceset="AY-3-8910" device="-RP" value="AY-3-8910"/>
 <part name="X1" library="coco" deviceset="EXPANSION_PORT_COCO" device=""/>
 <part name="IC6" library="74xx-us-jlb" deviceset="74*138" device="N" technology="LS"/>
 <part name="SUPPLY1" library="supply2" deviceset="VCC" device=""/>
