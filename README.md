@@ -1,4 +1,9 @@
-# Philharmonic 12 - A 12 Voice Hardware Music Synthesizer for the TANDY Color Computer and Dragon
+# Philharmonic 12 
+
+![Populated PCB](https://github.com/go4retro/Philharmonic12/blob/master/media/Philharmonic12.jpg)
+
+A 12 Voice Hardware Music Synthesizer for the TANDY Color Computer and Dragon
+
 This cartridge reproduces the functionality of the Speech Systems "Symphony 12" cartridge.
 
 NOTE:  As of 2018-12-24, this design has not been built and tested.  Caveat Emptor!
