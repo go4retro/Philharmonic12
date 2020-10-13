@@ -15061,8 +15061,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="FRAME2" library="frames" deviceset="FRAME_B_L" device=""/>
 <part name="IC8" library="linear" deviceset="LM386?-*" device="N" technology="1"/>
 <part name="IC9" library="linear" deviceset="LM386?-*" device="N" technology="1"/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
-<part name="C2" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4u7"/>
+<part name="C2" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4u7"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
@@ -15081,8 +15081,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R10" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="R11" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0204/7" value="10K"/>
-<part name="C3" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
+<part name="C3" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4u7"/>
+<part name="C4" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4u7"/>
 <part name="C5" library="rcl" deviceset="C-US" device="025-025X050" value="220p"/>
 <part name="C6" library="rcl" deviceset="C-US" device="025-025X050" value="220p"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
@@ -15143,7 +15143,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY55" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY56" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY57" library="supply2" deviceset="GND" device=""/>
-<part name="U$1" library="coco" deviceset="PROGRAM_PAK" device=""/>
+<part name="CASE" library="coco" deviceset="PROGRAM_PAK" device=""/>
 <part name="QG1" library="crystal" deviceset="QG5460" device="" value="3.579545MHz"/>
 <part name="SUPPLY58" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY59" library="supply2" deviceset="GND" device=""/>
@@ -15273,7 +15273,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="SUPPLY55" gate="G$1" x="12.7" y="35.56"/>
 <instance part="SUPPLY56" gate="GND" x="15.24" y="5.08"/>
 <instance part="SUPPLY57" gate="GND" x="10.16" y="5.08"/>
-<instance part="U$1" gate="A" x="416.56" y="45.72"/>
+<instance part="CASE" gate="A" x="416.56" y="45.72"/>
 <instance part="QG1" gate="1" x="276.86" y="154.94"/>
 <instance part="SUPPLY58" gate="GND" x="180.34" y="88.9"/>
 <instance part="SUPPLY59" gate="GND" x="106.68" y="88.9"/>
