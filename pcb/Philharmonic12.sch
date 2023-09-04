@@ -15091,7 +15091,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4m7"/>
+<part name="C7" library="rcl" deviceset="CPOL-US" device="E2.5-6" value="4u7"/>
 <part name="SUPPLY18" library="supply2" deviceset="VCC" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
@@ -15164,6 +15164,7 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<text x="416.56" y="7.62" size="1.778" layer="97">1.1</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="40.64" y="220.98"/>
